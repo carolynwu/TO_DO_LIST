@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 12, 2017, 8:43:41 PM
+    Author     : wuxuj
+*/
+h1{
+    background:#2980b9;
+    color:white;
+    margin:0;
+    padding:10px 20px;
+    text-transform:uppercase;
+    font-size:24px;
+    font-weight:normal;
+}
+
+.fa-calendar{
+    float:right;
+}
+
+.fa-plus-circle{
+    float:right;
+}
+
+
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+li{
+    background:#fff;
+    height:40px;
+    line-height:40px;
+    color:#666;
+}
+li:nth-child(2n){
+ background:#f7f7f7;   
+}
+
+p{
+    background:	#A9A9A9;
+    color:black;
+    margin:0;
+    padding:10px 20px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+span{
+    background:#e74c3c;
+    height:40px;
+    float:right;
+    text-align:center;
+    color:white;
+    width:0;
+    display:inline-block;
+    transition:0.2s linear;
+    opacity:0;
+}
+li:hover span{
+    width:40px;
+    opacity:1.0;
+}
+
+input{
+    font-size: 18px;
+    background-color:#f7f7f7;
+    color: #2980b9;
+    width:100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+input:focus{
+    background:#fff;
+    border:3px solid #2980b9;
+    outline:none; 
+}
+
+#container{
+    width:360px;
+    margin: 100px auto;
+    background:#f7f7f7;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+#input_container{
+    display:none;
+}
+
+.completed{
+    color:gray;
+    text-decoration:line-through;
+}
+#input_container input[type=text]{
+    padding-left:40px;
+  }
+  
+ #input_container{
+    position:relative;
+  }
+  
+ #input_container i{
+    position:absolute;
+    left:0;
+    top:8px;
+    padding:9px 3px;
+    color:#aaa;
+    transition:.3s;
+  }
+  
+  #datepicker{
+     width:220px;
+     height:22px;
+     padding-left:150px;
+     padding-bottom:0px;
+     padding-top:0px;
+      background:#2980b9;
+      color:white;
+      font-size:9px;
+  }
