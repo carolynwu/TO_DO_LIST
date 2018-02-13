@@ -29,6 +29,7 @@ $("#event").keypress(function(event){
 
  $(function(){
     $ ("#datepicker").datepicker({
+        firstDay: 1,
         changeMonth: true,
         changeYear: true,
         yearRange: "-10:+20",

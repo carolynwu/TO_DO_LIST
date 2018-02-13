@@ -49,8 +49,8 @@ p{
     text-transform:uppercase;
     font-weight:bold;
 }
-span{
-    background:white;
+#del{
+    background:red;
     height:40px;
     float:right;
     text-align:center;
@@ -58,9 +58,9 @@ span{
     width:0;
     display:inline-block;
     transition:0.2s linear;
-    opacity:1;
+    opacity:0;
 }
-li:hover span{
+li:hover #del{
     width:40px;
     opacity:1.0;
 }
@@ -123,6 +123,3 @@ input:focus{
   }
 
 
-.ui-datepicker-header{
-    color:black;
-}
