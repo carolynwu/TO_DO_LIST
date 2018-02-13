@@ -27,7 +27,14 @@ $("#event").keypress(function(event){
     }
 });
 
- $("#datepicker").datepicker();
-  $('.fa-calendar').click(function() {
-    $("#datepicker").focus();
+ $(function(){
+    $ ("#datepicker").datepicker({
+        changeMonth: true,
+        changeYear: true,
+        yearRange: "-10:+20",
+    });
+     $('.fa-calendar').click(function() {
+         $("#datepicker").focus();
+ })
   });
+
